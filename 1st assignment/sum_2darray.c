@@ -10,7 +10,7 @@ int main () {
     scanf("%d", &col);
 
 
-    /* an array with 5 rows and 2 columns*/
+    /* create/declare matrices and other variables*/
     int abc[row][col];
     int xyz[row][col];
     int sum[row][col];
@@ -39,6 +39,7 @@ int main () {
             {
                 printf("Enter value for abc[%d][%d]:  ", i, j);
                 scanf("%d", &xyz[i][j]);
+                /* Overide the sum matrix with the new added matrix || adding it directly */
                 sum[i][j] = sum[i][j] + xyz[i][j];
             }
          }
@@ -49,7 +50,7 @@ int main () {
     printf("\n\n The sum of %d conform matrices is: ");
     for(i=0; i<=row-1; i++)
     {
-         /*loop for second dimension of array which is 4 in this example*/
+         /* Print the Sum Matrix */
          for(j=0;j<=col-1;j++)
          {
              printf("%d ", sum[i][j]);
