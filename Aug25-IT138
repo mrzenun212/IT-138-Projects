@@ -1,0 +1,26 @@
+Defn: Dot (or Inner) Product -> The dot or inner product of the n-vectors in IR^n,
+
+	Avector = 	[ a1 ]  and Bvector = 	[ b1 ]
+				[ a2 ]					[ b2 ]
+				[ an ]					[ b3 ],
+
+	is defined as 
+
+		Avector * Bvector = [ a1 ]  *	[ b1 ]   = Scalar multiplication
+							[ a2 ]		[ b2 ]
+							[ an ]		[ b3 ],
+
+						= a1*b1 + a2*b2 + an*bn
+
+Defn: Matrix Multiplication (dapat same cla'g number of Col A and number of Row B)
+			If A = [ aij ] is an mxp matrix and B = [ bij ] is a pxn matrix, then the product of
+			A and B, denoted by AB, is an mxn matrix C = [ cij ],
+			defined by
+				Cij = Ai1*B1j + Ai2*b2j + ... +Aip*Bpj
+
+Defn: Transpose of a Matrix (balihon lang ang row ug column)
+			If A = [ Aij ] is an mxn matrix, then the transpose of A, denoted by A^t = [ A^t ij ] is the nxm
+			matrix defined by A^tij = Aji.
+
+			Remark:
+				The transpose of A is obtained from A by interchanging the rows and columns of A.
